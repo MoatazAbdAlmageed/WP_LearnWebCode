@@ -1,0 +1,52 @@
+$dark-color: #794296;
+$darker-color: #623471;
+$light-color: #D5C8C7;
+$muted-color: #6c757d;
+.marketing {
+    margin-top: 2em;
+}
+
+article.content {
+    min-height: 30em;
+}
+
+
+.bg-dark {
+    background-color: $dark-color !important;
+}
+
+a {
+    color: $muted-color;
+}
+
+a:hover {
+    color: $dark-color;
+    text-decoration: none;
+}
+
+.current_page_item a {
+    background: $darker-color !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+header nav,
+footer nav {
+    li {
+        float: none;
+        display: inline-block;
+        position: relative;
+        padding: 10px;
+    }
+    #navbarCollapse a {
+        padding: 10px;
+        background: $dark-color;
+        color: #fff;
+    }
+    #navbarCollapse a:hover {
+        padding: 10px;
+        background: $darker-color;
+        color: $light-color;
+    }
+}
+

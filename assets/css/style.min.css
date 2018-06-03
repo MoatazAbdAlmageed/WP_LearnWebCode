@@ -1,0 +1,9 @@
+.marketing{margin-top:2em}
+article.content{min-height:30em}
+.bg-dark{background-color:#794296 !important}
+a{color:#6c757d}
+a:hover{color:#794296;text-decoration:none}
+.current_page_item a{background:#623471 !important;pointer-events:none;cursor:default}
+header nav li,footer nav li{float:none;display:inline-block;position:relative;padding:10px}
+header nav #navbarCollapse a,footer nav #navbarCollapse a{padding:10px;background:#794296;color:#fff}
+header nav #navbarCollapse a:hover,footer nav #navbarCollapse a:hover{padding:10px;background:#623471;color:#d5c8c7}
